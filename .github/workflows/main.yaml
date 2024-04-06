@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run build:prod 
 
       - name: Deploy to GitHub Pages
-        uses: yashtank09/infra-automation@v4
+        uses: yashtank09/infra-automation
         with:
           folder: infra-automation-app/dist/browser
           branch: prod  
